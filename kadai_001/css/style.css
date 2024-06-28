@@ -1,0 +1,265 @@
+
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 767px) {
+  
+    
+
+header > div {
+    width: 980px;
+    margin: 32px auto;
+    display: flex;
+    justify-content: space-between;
+}
+header > div  a {
+    font-size: 34px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#head-logo {
+    border: solid 1px black;
+    padding: 1px 22px;
+}
+
+nav > a {
+    margin-left: 18px;
+}
+
+#header-img {
+    margin-top: 25px;
+    width: 1440px;
+    height: 587px;
+    width: 100%;
+    height: 100%;
+}
+
+#about {
+    width: 820px;
+    margin: 72px auto 0px auto;
+}
+
+h2 {
+   font-size: 34px; 
+   text-align: center;
+}
+
+#about > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.about-ttl {
+    margin-top: 61px;
+    font-size: 24px ;
+    font-weight: 900;
+}
+
+.about-txt {
+    font-weight: 500;
+}
+
+.person-img {
+    border-radius: 200px;
+}
+
+/* works */
+
+#works {
+    width: 752px;
+    margin: 87px auto 0 auto;
+}
+
+#works > div {
+    display: flex;
+}
+
+.works-box {
+    width: 240px;
+    margin-top: 45px;
+}
+.works-img {
+    width: 240px;
+}
+
+.works-box  {
+    margin-right: 16px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+footer {
+    width: 374px;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+    body {
+        font-family: "Noto Sans JP", sans-serif;
+        max-width: 1035px;
+        margin: 0 auto;
+    }
+ 
+    header > div {
+        width: 600px;
+        margin: 32px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header > div  a {
+        font-size: 34px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    #head-logo {
+        border: solid 1px black;
+        padding: 1px 22px;
+    }
+
+    nav > a {
+        margin-left: 18px;
+    }
+
+    #header-img {
+        margin-top: 25px;
+        width: 1035px;
+        width: 100%;
+    }
+
+    #about {
+        width: 100%px;
+        margin: 0 auto;
+    }
+
+    #about img.person-img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 34px; 
+        text-align: center;
+        margin: 33px 0 60px 0;
+     }
+     .person-img {
+        border-radius: 800px;
+        width: 50%;
+    }
+
+
+    .about-txt {
+        font-weight: 500;
+        font-size: 29px;
+    }
+
+    #about-box {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .about-ttl {
+        font-size: 30px ;
+        font-weight: 900;
+    }
+
+    #works {
+        width: 100%;
+        margin: 83px auto 0 auto;
+    }
+
+    .works-box {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .works-img {
+        width: 100%;
+    }
+
+    .works-box > p {
+        text-align: center;
+    }
+
+    .works-txt {
+        font-size: 30px;
+    }
+    footer {
+        width: 374px;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    body {
+        font-family: "Noto Sans JP", sans-serif;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    header > div {
+        width: 398px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    header > div  a {
+        font-size: 21px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .about-txt {
+        font-weight: 500;
+        font-size: 18px;
+        margin-top:10px ;
+    }
+    h2 {
+        font-size: 31px; 
+        text-align: center;
+        margin: 33px 0 21px 0;
+     }
+
+     .about-ttl {
+        font-size: 23px ;
+        font-weight: 900;
+        margin: 0;
+    }
+
+    #about > div {
+        margin-top: 40px;
+    }
+
+    #about-box {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .works-txt {
+        font-size: 21px;
+    }
+    
+}
